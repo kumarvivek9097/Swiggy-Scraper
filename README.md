@@ -1,4 +1,4 @@
-# swiggy-scraper
+# Swiggy Scraper
 A Scraping project to scrape restaurant information from [Swiggy](https://www.swiggy.com).  This scraper is able to scrape data for entire Indian restaurants.
 
 ## Data
@@ -11,3 +11,12 @@ The following variables are saved:
 - `Price For Two`: Cost for two in rupees
 - `Region`: Region where restaurant is located
 - `Rating`: Average rating out of 5
+
+## Libraries 
+Following libraries are used in this project:
+
+- BeautifulSoup
+- requests
+- re
+- json
+- pandas
