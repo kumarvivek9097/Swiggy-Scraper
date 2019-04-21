@@ -20,3 +20,11 @@ Following libraries are used in this project:
 - re
 - json
 - pandas
+- time
+
+## About the code
+- Headers:  Python Requests does not force you to use request headers while sending requests but there are few smart websites that does not let you to extract any data without certain headers. So it is always good to set headers.
+
+- Time Delay: A delay of 5 seconds has been given after each url hit to prevent scraper from being blocked.
+
+- Multiprocessing: As there are more than 57,000 restaurant listed on swiggy so extracing data from each url with a delay of 5 second will take very long time. So to overcome this multiprocessing is used to speed up scraping. 
